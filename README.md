@@ -1,3 +1,3 @@
 # LiteFox Firefox theme
 
-![Preview](preview?raw=true "Preview")
+![Preview](preview.png?raw=true "Preview")
