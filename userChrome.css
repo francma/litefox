@@ -1,0 +1,45 @@
+/* Remove border around url bar and make background transparent */
+#nav-bar textbox, #nav-bar textbox:hover {
+	background-color: rgba(0, 0, 0, 0) !important;
+	border: 0 !important;
+	box-shadow: none !important;
+}
+/* Hide info button ("i" in circle) in urlbar -- right click page > page info */
+#identity-icon {
+	display: none !important;
+}
+/* Hide menu burger button -- press alt to access "old school" menu */
+#PanelUI-menu-button {
+	display: none !important;
+}
+/* Hide action button (three dots) in urlbar -- right click page > page info */
+#pageActionButton {
+	display: none !important;
+}
+/* Hide overflow navbar icon (for addons and stuff) */
+#nav-bar #nav-bar-overflow-button {
+	display: none !important;
+}
+/* Hide desktop notification icon */
+#nav-bar .desktop-notification-icon {
+	display: none !important;
+}
+/* Hide forward and back buttons */
+#nav-bar #forward-button, #nav-bar #back-button {
+	display: none !important;
+}
+/* Align HTTPS icon with 1st tab favicon */
+#nav-bar #identity-box {
+	padding-inline-start: 0px !important;
+}
+/* Remove tab accent color */
+#tabbrowser-tabs { 
+	--tab-line-color: none !important;
+}
+/* Show tab close button on hover */
+#tabbrowser-tabs .tabbrowser-tab:not([pinned="true"]) .tab-close-button {
+  visibility: collapse !important;
+}
+#tabbrowser-tabs .tabbrowser-tab:not([pinned="true"]):hover .tab-close-button {
+  visibility: visible !important;
+}
