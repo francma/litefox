@@ -1,5 +1,5 @@
 /* Remove border around url bar and make background transparent */
-#nav-bar textbox, #nav-bar textbox:hover {
+#urlbar, #urlbar[focused="true"] {
 	background-color: rgba(0, 0, 0, 0) !important;
 	border: 0 !important;
 	box-shadow: none !important;
@@ -9,7 +9,7 @@
 	display: none !important;
 }
 /* Hide menu burger button -- press alt to access "old school" menu */
-#PanelUI-menu-button {
+#PanelUI-button {
 	display: none !important;
 }
 /* Hide action button (three dots) in urlbar -- right click page > page info */
